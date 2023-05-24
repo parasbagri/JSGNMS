@@ -1,0 +1,179 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800;900&display=swap');
+
+
+*{
+    
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+} 
+
+  body{
+     
+     color: white;
+     font-family: 'Poppins', sans-serif;
+     scroll-behavior: smooth; 
+     /* transition: all 2s ease-in-out; */
+  }
+
+.wrapper{
+     
+  position: relative;
+    overflow-x:hidden ;
+    overflow-y: auto;
+    width: 100vw;
+    height: 100vh;
+    /* z-index: 1; */
+    background: linear-gradient(to right, rgb(102, 99, 99),rgb(235, 145, 145),rgb(83, 83, 58));
+   
+} 
+
+.main-section{
+    
+    width: 80%;
+    margin: 0 auto;
+    margin-left: 220px;
+    /* border: 3px solid black; */
+    background-color: rgba(255, 255, 255,0.3);
+    color: black;
+    /* opacity: 0.5; */
+    padding: 40px;
+    /* margin-bottom: -1000px; */
+    
+    
+} 
+
+.intro{
+    
+    padding-top:40px ;
+    padding-bottom: 40px;
+} 
+
+.para-two{
+    
+   margin: 20px 0 20px 0;
+} 
+
+.flot{
+  
+  width: 95%;
+  height: 130px ;
+  /* border: 2px solid black; */
+  box-shadow: 4px 4px 10px rgb(56, 55, 55), -4px -4px 10px  rgb(56, 55, 55);
+  margin-bottom: 50px;
+  margin-top: 50px;
+  background-color: white;
+  
+} 
+
+.jsimage{
+    float: left;
+    background-color: white;
+    padding: 10px 8px 25px 8px;
+    /* border: 1px solid black; */
+    
+} 
+
+.float-para{
+    
+   width: 632px;
+   /* border: 2px solid black;  */
+   margin-left: 101px;
+   background-color: rgb(180, 177, 177);
+   /* padding: 50px 20px 50px 20px ; */
+   line-height: 43px;
+   padding-left: 20px;
+
+} 
+.jsimage-2{
+    
+      position:relative;
+        left: 440px;
+        bottom: 136px;
+      /* background-color: rgb(233, 164, 164); */
+      padding: 20px 15px 20px 15px;
+      box-sizing: content-box;
+      margin-left: 200px;
+      /* border: 1px solid black; */
+      /* box-sizing: border-box; */
+}  
+
+.ulli{
+    
+  margin: 20px;
+}
+
+.head{
+    
+   margin: 50px 0 20px 0;
+} 
+
+.para{
+    text-transform: capitalize;
+    margin: 0 0 20px 0;
+}
+.what-you{
+    
+   margin-left: 30px;
+   line-height: 50px;
+   text-align: start;
+}
+
+.kara{
+    
+    margin: 15px 0 15px 0;
+
+}
+.stro{
+    
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+ 
+.code{
+   margin: 20px;
+   background-color: rgb(147, 145, 145);
+} 
+.func{
+   
+   padding: 40px;
+   text-align: justify;
+   display: inline-block;
+}  
+
+.assider{
+    border: 2px solid black;
+    width: 18%;
+    position: absolute;
+    /* bottom: 2130px; */
+    /* z-index: -1; */
+    /* height: 2130px; */
+    height: 100vh;
+    top: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.assider div{
+    border: 1px solid black;
+} 
+
+.paddi{
+    padding: 20px;
+}  
+
+.assider div:hover{
+    
+     background-color: rgb(75, 75, 75);
+}
+
+h2{
+    border-bottom: 1px solid rgb(57, 56, 56);
+    font-weight: 500;
+} 
+
+a{
+    text-decoration: none;
+    color: white ;
+}
